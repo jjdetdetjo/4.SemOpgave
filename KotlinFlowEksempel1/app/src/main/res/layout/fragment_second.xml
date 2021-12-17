@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/textview_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flow Example in MVVM"/>
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Simple Examples"/>
+
+    <Button
+        android:id="@+id/flow_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collect flow"/>
+
+    <Button
+        android:id="@+id/mock_data_flow_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collect mock data flow"/>
+
+    <Button
+        android:id="@+id/cancel_flow_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel flow"/>
+
+    <TextView
+        android:id="@+id/messages_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
